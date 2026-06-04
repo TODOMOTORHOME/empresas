@@ -2,35 +2,29 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;url=/">
     <title>Redirecionando...</title>
 </head>
 <body>
     <script>
-        if (document.referrer) {
-            window.location.replace(document.referrer);
-        } else if (window.history.length > 1) {
-            window.history.back();
-        } else {
-            window.location.href = "/";
-        }
+        window.location.href = "/";
     </script>
 
     <noscript>
-        <meta http-equiv="refresh" content="0; url=/">
-        <p>Redirecionando...</p>
+        <p>Redirecionando para a página principal...</p>
     </noscript>
 </body>
 </html>
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Voltando...</title>
+    <meta charset="UTF-8">
+    <title>Redirecionando...</title>
 </head>
 <body>
     <script>
-        history.back();
+        window.location.replace("https://seudominio.com");
     </script>
 </body>
 </html>
