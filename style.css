@@ -411,8 +411,8 @@ p {
     flex: 1;
 }
 
-/* Ad Spaces styling */
-.ad-space {
+/* Showcase/Feature Spaces styling */
+.showcase-box {
     background-color: #4b5563;
     color: #ffffff;
     display: flex;
@@ -429,12 +429,12 @@ p {
     padding: 10px;
 }
 
-.ad-top-banner {
+.showcase-top-banner {
     height: 60px;
     font-size: 0.85rem;
 }
 
-.ad-grid-banner {
+.showcase-grid-banner {
     height: 130px;
     font-size: 0.85rem;
     grid-column: span 1;
@@ -624,7 +624,7 @@ p {
     margin-bottom: 15px;
 }
 
-.ad-email-banner {
+.showcase-email-banner {
     height: 80px;
     font-size: 0.85rem;
     border-radius: 6px;
@@ -638,7 +638,7 @@ p {
 }
 
 /* Instagram specific banner */
-.ad-instagram-post {
+.showcase-instagram-post {
     height: 230px;
     border-radius: 0;
     border-left: none;
@@ -647,14 +647,14 @@ p {
 }
 
 /* FB cover banner */
-.ad-fb-group-cover {
+.showcase-fb-group-cover {
     height: 150px;
     border-radius: 0;
     border: none;
     box-shadow: none;
 }
 
-.ad-fb-post-image {
+.showcase-fb-post-image {
     height: 120px;
     font-size: 0.75rem;
 }
@@ -777,12 +777,12 @@ p {
     gap: 12px;
 }
 
-.ad-top-banner-mobile {
+.showcase-top-banner-mobile {
     height: 50px;
     font-size: 0.75rem;
 }
 
-.ad-inline-mobile {
+.showcase-inline-mobile {
     height: 70px;
     font-size: 0.75rem;
 }
@@ -829,8 +829,8 @@ p {
     margin-top: auto;
 }
 
-/* --- Sponsorship --- */
-.sponsorship-card {
+/* --- Partnership / Alliances --- */
+.alliance-card {
     display: flex;
     background: var(--bg-main);
     border: 1px solid var(--border-color);
@@ -841,11 +841,11 @@ p {
     align-items: center;
 }
 
-.sponsorship-content {
+.alliance-content {
     flex: 1;
 }
 
-.sponsorship-image {
+.alliance-image {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -857,7 +857,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .sponsorship-card {
+    .alliance-card {
         flex-direction: column;
     }
 }
@@ -933,11 +933,11 @@ p {
     transform: scale(1.2) rotate(5deg);
 }
 
-.sponsorship-image img {
+.alliance-image img {
     transition: transform 0.5s ease;
 }
 
-.sponsorship-card:hover .sponsorship-image img {
+.alliance-card:hover .alliance-image img {
     transform: scale(1.02);
 }
 
@@ -1006,7 +1006,7 @@ p {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-.story-ad-sticker {
+.story-showcase-sticker {
     background: rgba(255, 255, 255, 0.95);
     color: #333;
     padding: 12px 15px;
@@ -1021,14 +1021,14 @@ p {
     transform: rotate(-3deg);
 }
 
-.story-ad-sticker h4 {
+.story-showcase-sticker h4 {
     font-size: 1rem;
     font-weight: 800;
     color: var(--primary);
     margin-bottom: 2px;
 }
 
-.story-ad-sticker p {
+.story-showcase-sticker p {
     font-size: 0.65rem;
     color: #666;
     margin-bottom: 0;
@@ -1065,8 +1065,8 @@ p {
     font-weight: 600;
 }
 
-/* --- Sponsor Mockups --- */
-.spons-tab-btn {
+/* --- Partner/Alliance Mockups --- */
+.alliance-tab-btn {
     background: #e2e2e2;
     color: var(--text-muted);
     border: 1px solid var(--border-color);
@@ -1078,20 +1078,20 @@ p {
     font-size: 0.95rem;
 }
 
-.spons-tab-btn.active,
-.spons-tab-btn:hover {
+.alliance-tab-btn.active,
+.alliance-tab-btn:hover {
     background: var(--primary);
     color: #fff;
     border-color: var(--primary);
     box-shadow: 0 4px 10px rgba(221, 152, 3, 0.25);
 }
 
-.spons-tab-content {
+.alliance-tab-content {
     display: none;
     animation: fadeInTab 0.4s ease forwards;
 }
 
-.spons-tab-content.active {
+.alliance-tab-content.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1099,8 +1099,8 @@ p {
     width: 100%;
 }
 
-/* Sponsoring custom layouts */
-.ad-co-branded-logo {
+/* Alliance custom layouts */
+.showcase-co-branded-logo {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -1116,7 +1116,7 @@ p {
     text-transform: uppercase;
 }
 
-.hero-sponsored-bg {
+.hero-alliance-bg {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
         url('assets/beneficios.png') no-repeat center center;
     background-size: cover;
