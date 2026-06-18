@@ -128,7 +128,6 @@ p {
     top: 0;
     z-index: 100;
 }
-
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -294,6 +293,7 @@ p {
     .hero {
         flex-direction: column;
         text-align: center;
+        padding-top: 50px;
     }
 
     .hero-buttons {
@@ -1336,8 +1336,7 @@ p {
 
 /* --- Bloque de Cierre (CTA) --- */
 .section-cierre {
-    background-color: var(--bg-brand-dark);
-    /* Dark solid forest green background */
+    background-color: var(--bg-brand-dark); /* Dark solid forest green background */
     color: #ffffff;
     padding: 90px 20px;
     text-align: center;
