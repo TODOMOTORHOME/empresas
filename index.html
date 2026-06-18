@@ -23,9 +23,17 @@
                 <img src="https://sharetribe-assets.imgix.net/68418101-b428-4d02-9596-58e13acb0eab/raw/ed/3aeb7e4fdeb8c97f753202494c5d5f7b45e542?auto=format&fit=clip&h=72&w=640&s=a33af36845bb8c35146e33146c7f5833"
                     alt="Todo Motorhome Logo">
             </a>
-            <nav class="nav-links">
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#tiendas-oficiales">Tiendas Oficiales</a>
                 <a href="#planes-comerciales">Publicidad</a>
                 <a href="#alianzas-comerciales">Sponsoreo</a>
+                <a href="#agencia">Agencia</a>
+                <a href="#expomotorhome">Experiencia Expomotorhome 2026</a>
             </nav>
         </div>
     </header>
@@ -155,6 +163,88 @@
                         <h3>Presencia internacional</h3>
                         <p>Participamos activamente y generamos alianzas en los eventos más importantes de Argentina y
                             Brasil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tiendas Oficiales Section -->
+    <section id="tiendas-oficiales" class="section bg-darker">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Tiendas Oficiales</h2>
+                <p>Evolucionamos la infraestructura para darle a tu marca más herramientas para destacar.</p>
+            </div>
+
+            <div class="alliance-card fade-in-up">
+                <div class="alliance-content">
+                    <ul class="card-features big-features">
+                        <li><span class="icon check">✔</span> Directorio propio (URL): tu dirección web exclusiva
+                            (todomotorhome.ar/store/tumarca)</li>
+                        <li><span class="icon check">✔</span> Identidad de marca: foto de perfil y portada
+                            personalizadas</li>
+                        <li><span class="icon check">✔</span> Más tráfico: links externos directos a tu web o redes
+                            sociales</li>
+                        <li><span class="icon check">✔</span> Tienda online exclusiva: productos en grilla ordenada
+                            por categorías y subcategorías</li>
+                        <li><span class="icon check">✔</span> Soporte preferencial: atención prioritaria y directa
+                        </li>
+                    </ul>
+                    <div style="margin-top: 30px;">
+                        <a href="https://www.todomotorhome.ar/signup" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Hacé click y seleccioná "Soy una empresa"</a>
+                        <p class="card-note">Plan Mensual $30.000 ARS · Plan Anual $300.000 ARS (2 meses bonificados)</p>
+                    </div>
+                </div>
+                <div class="alliance-image zoom-in">
+                    <div class="mockup-window desktop">
+                        <div class="mockup-header">
+                            <div class="dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="url-bar">todomotorhome.ar/store/tumarca</div>
+                        </div>
+                        <div class="mockup-body" style="padding: 0; gap: 0;">
+                            <div class="generic-fb-cover" style="height: 70px;">Foto de Portada</div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 12px 15px;">
+                                <div
+                                    style="width: 44px; height: 44px; border-radius: 50%; background: var(--primary); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 0.75rem; flex-shrink: 0;">
+                                    TM</div>
+                                <div>
+                                    <div style="font-size: 0.85rem; font-weight: 700; color: #050505;">Tu Tienda
+                                        Oficial</div>
+                                    <div style="font-size: 0.7rem; color: #888;">todomotorhome.ar/store/tumarca</div>
+                                </div>
+                            </div>
+                            <div class="category-layout-sim" style="padding: 0 15px 15px 15px;">
+                                <div class="sidebar-sim">
+                                    <div class="sidebar-line"></div>
+                                    <div class="sidebar-line"></div>
+                                    <div class="sidebar-line"></div>
+                                </div>
+                                <div class="category-grid-sim">
+                                    <div class="item-sim-mini">
+                                        <div class="img-sim-mini"></div>
+                                        <div class="text-sim-mini"></div>
+                                    </div>
+                                    <div class="item-sim-mini">
+                                        <div class="img-sim-mini"></div>
+                                        <div class="text-sim-mini"></div>
+                                    </div>
+                                    <div class="item-sim-mini">
+                                        <div class="img-sim-mini"></div>
+                                        <div class="text-sim-mini"></div>
+                                    </div>
+                                    <div class="item-sim-mini">
+                                        <div class="img-sim-mini"></div>
+                                        <div class="text-sim-mini"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -868,6 +958,157 @@
         </div>
     </section>
 
+    <!-- Agencia Section -->
+    <section id="agencia" class="section container">
+        <div class="section-header fade-in-up">
+            <h2>Todo Motorhome Agencia</h2>
+            <p>Somos el equipo detrás de la comunicación, crecimiento y monetización de marcas dentro del universo
+                motorhome. Trabajamos como partner estratégico de fabricantes, alquileres, campings, proveedores y
+                proyectos turísticos para ayudarlos a vender más, posicionarse mejor y formar parte de la comunidad
+                líder del sector.</p>
+        </div>
+
+        <div class="cards-container agencia-cards">
+            <!-- Pack Básico Redes Sociales -->
+            <div class="card fade-in-up" style="animation-delay: 0.1s;">
+                <div class="card-header">
+                    <h3>Pack Básico Redes Sociales</h3>
+                </div>
+                <p style="margin-bottom: 15px; color: var(--text-muted);">Ideal para marcas que necesitan arrancar en
+                    redes u ordenar su presencia digital.</p>
+                <ul class="card-features">
+                    <li><span class="icon check">✔</span> Estrategia y calendario de contenidos</li>
+                    <li><span class="icon check">✔</span> Diseño, copys y publicación de hasta 12 posts y 12
+                        historias por mes</li>
+                    <li><span class="icon check">✔</span> Reporte y seguimiento</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="https://wa.me/5491144267319?text=Hola!%20Te%20contacto%20por%20el%20servicio%20de%20%22Pack%20B%C3%A1sico%20Redes%20Sociales%22%20de%20Todo%20Motorhome%20Agencia"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Consultar
+                        Pack</a>
+                </div>
+            </div>
+
+            <!-- Pack Redes Full -->
+            <div class="card card-oro fade-in-up" style="animation-delay: 0.2s; position: relative;">
+                <span class="badge-recomendado">Recomendado</span>
+                <div class="card-header">
+                    <h3>Pack Redes Full</h3>
+                </div>
+                <p style="margin-bottom: 15px; color: var(--text-muted);">Para marcas que ya están en movimiento y
+                    quieren escalar en su propuesta de contenidos y atención al cliente.</p>
+                <ul class="card-features">
+                    <li><span class="icon check">✔</span> Todo lo incluido en el Pack Básico</li>
+                    <li><span class="icon check">✔</span> Generación de contenido (con filmmaker)</li>
+                    <li><span class="icon check">✔</span> Moderación de mensajes y comentarios</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="https://wa.me/5491144267319?text=Hola!%20Te%20contacto%20por%20el%20servicio%20de%20%22Pack%20Redes%20Full%22%20de%20Todo%20Motorhome%20Agencia"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Consultar
+                        Pack</a>
+                </div>
+            </div>
+
+            <!-- Pack Performance -->
+            <div class="card fade-in-up" style="animation-delay: 0.3s;">
+                <div class="card-header">
+                    <h3>Pack Performance</h3>
+                </div>
+                <p style="margin-bottom: 15px; color: var(--text-muted);">Pensado para quienes ya dominan su imagen
+                    pero necesitan apoyo para lograr resultados concretos y medibles.</p>
+                <ul class="card-features">
+                    <li><span class="icon check">✔</span> Estrategia de Ads</li>
+                    <li><span class="icon check">✔</span> Armado de campañas en Google y Meta</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="https://wa.me/5491144267319?text=Hola!%20Te%20contacto%20por%20el%20servicio%20de%20%22Pack%20Performance%22%20de%20Todo%20Motorhome%20Agencia"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Consultar
+                        Pack</a>
+                </div>
+            </div>
+
+            <!-- Pack Integral -->
+            <div class="card fade-in-up" style="animation-delay: 0.4s;">
+                <div class="card-header">
+                    <h3>Pack Integral</h3>
+                </div>
+                <p style="margin-bottom: 15px; color: var(--text-muted);">Nos convertimos en tu equipo de marketing.
+                    Estrategia, contenido, pauta, comunidad y crecimiento trabajando de forma integrada para escalar
+                    tu negocio dentro del ecosistema motorhome.</p>
+                <ul class="card-features">
+                    <li><span class="icon check">✔</span> Redes sociales y campañas publicitarias</li>
+                    <li><span class="icon check">✔</span> Moderación y atención al cliente</li>
+                    <li><span class="icon check">✔</span> Email marketing</li>
+                    <li><span class="icon check">✔</span> Desarrollo web y landing pages</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="https://wa.me/5491144267319?text=Hola!%20Te%20contacto%20por%20el%20servicio%20de%20%22Pack%20Integral%22%20de%20Todo%20Motorhome%20Agencia"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Consultar
+                        Pack</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Expomotorhome 2026 Section -->
+    <section id="expomotorhome" class="section bg-darker">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Experiencia Expomotorhome 2026</h2>
+                <p>Te llevamos nuevamente al viaje empresarial con destino a la 10ma Exposición de Motorhomes y
+                    Campismo más grande de América Latina.</p>
+            </div>
+
+            <div class="alliance-card fade-in-up">
+                <div class="alliance-content">
+                    <h3>EXPO MOTORHOME 2026 <span
+                            style="font-size: 1rem; font-weight: 500; color: var(--primary); display: block; margin-top: 6px;">25
+                            al 29 de Noviembre 2026 · Curitiba, Brasil</span></h3>
+
+                    <div class="cards-container" style="margin-top: 25px; gap: 25px;">
+                        <div style="flex: 1; min-width: 240px;">
+                            <h4 style="margin-bottom: 12px; color: var(--text-main);">Actividades</h4>
+                            <ul class="card-features">
+                                <li><span class="icon check">✔</span> Visitas a fábricas de motorhomes y carroceros
+                                </li>
+                                <li><span class="icon check">✔</span> Accesos VIP a ExpoMotorhome</li>
+                                <li><span class="icon check">✔</span> Espacio propio en el evento</li>
+                                <li><span class="icon check">✔</span> Encuentros con especialistas en
+                                    importación/exportación</li>
+                                <li><span class="icon check">✔</span> Charlas exclusivas con referentes
+                                    internacionales</li>
+                            </ul>
+                        </div>
+                        <div style="flex: 1; min-width: 240px;">
+                            <h4 style="margin-bottom: 12px; color: var(--text-main);">Comitiva</h4>
+                            <ul class="card-features">
+                                <li><span class="icon check">✔</span> Aéreos Buenos Aires - Curitiba - Buenos Aires
+                                </li>
+                                <li><span class="icon check">✔</span> Traslados con bus exclusivo</li>
+                                <li><span class="icon check">✔</span> Hospedaje en hotel 4 estrellas con base doble
+                                </li>
+                                <li><span class="icon check">✔</span> Todas las comidas incluídas</li>
+                                <li><span class="icon check">✔</span> Traductor español/portugués</li>
+                                <li><span class="icon check">✔</span> Tour ciudad Curitiba y tour de compras</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px;">
+                        <p style="font-weight: 700; font-size: 1.1rem; margin-bottom: 15px;">Valor: USD 2.400 + IVA
+                            (dólar billete por persona, en base doble)</p>
+                        <a href="https://wa.me/5491144267319?text=Hola!%20Quiero%20reservar%20mi%20lugar%20para%20la%20Experiencia%20Expomotorhome%202026"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-primary">Reservá tu lugar</a>
+                    </div>
+                </div>
+                <div class="alliance-image zoom-in">
+                    <img src="assets/expomotorhome.png" alt="Experiencia Expomotorhome 2026"
+                        style="border-radius: 12px; max-width: 100%; box-shadow: 0 15px 30px rgba(0,0,0,0.15);">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Bloque de Cierre -->
     <section class="section-cierre fade-in-up">
         <div class="container container-cierre">
@@ -934,8 +1175,21 @@
                                 block: 'start'
                             });
                         }
+                        navLinks.classList.remove('active');
+                        navToggle.classList.remove('active');
+                        navToggle.setAttribute('aria-expanded', 'false');
                     }
                 });
+            });
+
+            // Mobile hamburger menu toggle
+            const navToggle = document.getElementById('navToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            navToggle.addEventListener('click', function () {
+                const isOpen = navLinks.classList.toggle('active');
+                navToggle.classList.toggle('active', isOpen);
+                navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
             });
         });
 
